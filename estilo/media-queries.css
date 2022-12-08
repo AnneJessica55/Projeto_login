@@ -20,6 +20,7 @@ Telas maiores acima de 1200px
     section#login > div#formulario {
         width:50%;
         float: right;
+        height: 100%;
     }
 }
 @media screen and (min-width:992px) and (max-width: 1200px) {
