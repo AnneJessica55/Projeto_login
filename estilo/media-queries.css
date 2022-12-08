@@ -10,35 +10,39 @@ Telas maiores acima de 1200px
 @media screen and (min-width:768px) and (max-width:992px) {
     section#login {
         width:90vw;
+        height: 70%;
     }
     section#login > div#imagem {
         float: left;
         width:50%;
         height: 100%;
-        transform: translateY(16%);
+        margin-top:15%;
     }
     section#login > div#formulario {
         width:50%;
         float: right;
         height: 100%;
+        margin-top: 20%;
     }
 }
 @media screen and (min-width:992px) and (max-width: 1200px) {
     section#login {
         width:990px;
+        height: 65%;
     }
     section#login > div#imagem {
-        background: url(../Imagens/Authentication.gif);
+        background: url(../Imagens/Authentication-pana.svg);
         background-repeat: no-repeat;
         width:50%;
         height:100%;
         float: right;
-        transform: translateY(8%);
+        margin-top: 10%;
     }
     section#login > div#formulario {
         width:50%;
         height: 100%;
         float: left;
+        margin-top: 15%;
     }
     div#formulario > p {
         font-size: 1.2em;
@@ -47,6 +51,7 @@ Telas maiores acima de 1200px
 @media screen and (min-width: 1200px) {
     section#login {
         width:990px;
+        height: 70%;
     }
     section#login > div#imagem {
         background: url(../Imagens/Authentication.gif);
@@ -60,6 +65,7 @@ Telas maiores acima de 1200px
         width:50%;
         height: 100%;
         float: left;
+        margin-top:10%;
     }
     div#formulario > p {
         font-size: 1.5em;
